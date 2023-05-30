@@ -1,5 +1,5 @@
 data "tfe_outputs" "my_output" {
-  organization = "daniela-org"
+  organization = "test"
   workspace    = "terraform-random-pet"
 }
 
