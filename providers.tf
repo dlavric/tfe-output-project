@@ -8,6 +8,6 @@ terraform {
 }
 
 provider "tfe" {
-  hostname = "https://daniela-tfe.tf-support.hashicorpdemo.com/" # Optional, defaults to Terraform Cloud `app.terraform.io`
+  hostname = "daniela-tfe.tf-support.hashicorpdemo.com" # Optional, defaults to Terraform Cloud `app.terraform.io`
   # export your token as an environment variable
 }
