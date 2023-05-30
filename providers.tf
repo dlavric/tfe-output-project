@@ -8,6 +8,6 @@ terraform {
 }
 
 provider "tfe" {
-  hostname = "https://35.89.160.155.nip.io/" # Optional, defaults to Terraform Cloud `app.terraform.io`
+  hostname = "35.89.160.155.nip.io" # Optional, defaults to Terraform Cloud `app.terraform.io`
   # export your token as an environment variable
 }
