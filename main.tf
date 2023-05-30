@@ -4,5 +4,5 @@ data "tfe_outputs" "my_output" {
 }
 
 output "my_new_output" {
-  value = data.tfe_outputs.my_output.server.id
+  value = data.tfe_outputs.my_output.server
 }
